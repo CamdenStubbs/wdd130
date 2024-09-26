@@ -1,0 +1,15 @@
+body {
+    background-color: lightcyan;
+}
+a{
+    color: #000000;
+    font-size: 30px;
+    padding: 25px
+    
+}
+h1{
+   text-align: center; 
+}
+img {
+    width: 500px;
+}

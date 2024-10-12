@@ -7,9 +7,13 @@ a{
     padding: 25px
     
 }
+#active{
+    background-color: steelblue;
+    color: rgb(245, 177, 153);
+}
 h1{
    text-align: center; 
 }
 img {
-    width: 500px;
+    width: 300px;
 }

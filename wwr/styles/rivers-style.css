@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -79,6 +82,7 @@ footer .social img{
 p {
     font-size: .8em;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .rivers-grid {
@@ -112,7 +116,9 @@ p {
 }
 
 h2 {
-    font-size: 1.1em;
+    color: #152771;
+    font-family: "Peralta";
+    font-size: 1.05em;
     text-align: center;
 }
 

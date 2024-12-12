@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
+
+#content-rivals {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #120a37;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo-link-rivals {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo-rivals {
+    width: 140px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+nav a {
+    text-align: center;
+    color: #baa9ec;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 1.6em;
+}
+
+nav a:hover {
+    color: #fcfcdb;
+    background-color: #baa9ec;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+#hero-rivals {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-bottom: 300px;
+}
+
+#hero-box-rivals {
+    grid-column: 1/4;
+    grid-row: 1/6;
+    z-index: -1;
+}
+
+#hero-img-rivals {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#hero-background {
+    background-color: #120a37;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    height: 100%;
+    opacity: 80%;
+}
+
+#home-title-rivals-1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-family: "Unlock";
+    text-align: center;
+    color: #fcfcdb;
+    font-size: 3em;
+    margin-bottom: -5px;
+    padding-top: 10px;
+    z-index: +1;
+}
+
+#home-title-rivals-2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-family: "Unlock";
+    text-align: center;
+    color: #fcfcdb;
+    font-size: 2.25em;
+    padding-bottom: 25px;
+    z-index: +1;
+}
+
+#hero-welcome-rivals {
+    grid-column: 2/3;
+    grid-row: 10/11;
+    font-family: "Unlock";
+    color: #baa9ec;
+    font-size: 2.1em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#hero-msg-rivals{
+    grid-column: 2/3;
+    grid-row: 11/12;
+    background-color: #fcfcdb;
+    padding: 5px;
+    border-radius: 25px;
+    color: #120a37;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#msg-background {
+    background-color: #120a37;
+    grid-column: 1/4;
+    grid-row: 9/12;
+    height: 100%;
+    z-index: -1;
+    margin-top: 110px;
+}
+
+#character {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.img-heading :hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#character p {
+    grid-column: 2/3;
+    text-align: center;
+    color: #baa9ec;
+    background-color: #120a37;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 50px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px #c07d0d;
+}
+
+#character-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#character-img {
+    width: 100%;
+    height: 200px;
+}
+
+.img-background {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: #120a37;
+    height: 200px;
+    width: 100%;
+    opacity: 60%;
+}
+
+#glossary {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#glossary p {
+    grid-column: 2/3;
+    text-align: center;
+    color: #baa9ec;
+    background-color: #120a37;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px #c07d0d;
+}
+
+#glossary-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+#glossary-img {
+    width: 100%;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-heading {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5em;
+    margin-top: -20px;
+    z-index: +1;
+    color: #baa9ec;
+    font-family: "Unlock";
+    text-decoration: none;
+}
+
+footer {
+    background-color: #120a37;
+    color: #fcfcdb;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #53C4DB
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p1 {
+    text-align: center;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}

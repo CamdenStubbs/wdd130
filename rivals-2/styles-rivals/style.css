@@ -225,20 +225,20 @@ footer {
 }
 
 footer a {
-    color: white;
-    text-decoration: none;
+    color: #fcfcdb;
 }
 
 footer a:hover {
-    color: #53C4DB
+    color: #baa9ec
 }
 
 footer p {
     font-size: 1.2em;
 }
 
-footer p1 {
+#disclaimer {
     text-align: center;
+    font-size: 1em;
 }
 
 footer p a:hover {

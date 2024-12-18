@@ -232,13 +232,14 @@ footer a:hover {
     color: #baa9ec
 }
 
+footer p {
+    font-size: 1.2em;
+}
+
+
 #disclaimer {
     text-align: center;
     font-size: 1em;
-}
-
-footer p {
-    font-size: 1.2em;
 }
 
 footer p a:hover {

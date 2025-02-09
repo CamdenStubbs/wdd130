@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Unlock&display=swap');
 
+body {
+    min-width: 1100px;
+}
+
 #content-rivals {
     max-width: 1600px;
     min-width: 1100px;
